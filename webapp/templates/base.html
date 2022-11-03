@@ -6,11 +6,16 @@
 </head>
 <body>
 <div id="top">
-<img src="static/logo.png" id="logo"> || HOME || LISTA DZIECI || PLATNOSCI || NADCHODZACE WYDARZENIA
-</div>
+    <div id="logo_container"><img src="static/logo.png" id="logo"></div>
+    <div id="header_text_container">HOME || LISTA DZIECI || PLATNOSCI || NADCHODZACE WYDARZENIA</div>
+</div><br />
+<div class="separator">&nbsp;</div>
+
+<div id="content">
 {% block body %}
 
 {% endblock %}
-
+</div>
+<div class="separator">&nbsp;</div>
 </body>
 </html>
